@@ -4,15 +4,21 @@
         <title>Playsome</title>
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
         <style>
-            
+            body {
+                background-color: #f5fffe;
+            }
             #main {
-                max-width: 330px;
+                max-width: 430px;
                 padding: 15px;
                 margin: 0 auto;
                 text-align: center;
             }
-            #main h1 { color: #00C5A1; margin-bottom: 50px; }
-            #main h4 { color: #2F344F; margin-bottom: 25px; }
+            #main h1, h3 { color: #00C5A1; }
+            #main h4 { color: #2F344F; margin: 50px 0 25px 0; }
+            
+            .embed-responsive {
+                margin: 20px;    
+            }
             
             .fly-icon {
                 -ms-transform: rotate(300deg); /* IE 9 */
@@ -36,10 +42,10 @@
     </head>
     <body>
         
-        <div class="container">
+        <div class="container-fluid">
            <div id="main">
-                <h1>Coming soon</h1>
-                <h4>Get notified about the launch</h4>
+                <h1>Coming soon!</h1>
+                <h4>Get notified when we launch</h4>
                 <form action="//formspree.io/info@playsome.io" method="POST">
                     <div class="input-group">
                       <input type="email" name="_replyto" class="form-control" placeholder="your@email.com">
@@ -50,6 +56,34 @@
                       </span>
                     </div>
                 </form>
+                
+                <h4>Here are some awesome let's play videos of our first game</h4>
+                <h3>Fly Before You Die</h3>
+                <span>soon to be released for Android!</span>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sJRvE_S0A3Y"></iframe>
+                </div>
+                
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WNyX4YNUthY"></iframe>
+                </div>
+                
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Nzk7xKnDbR8"></iframe>
+                </div>
+                
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QdykX8SvHI0"></iframe>
+                </div>
+                
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QW3PLwL7x3k"></iframe>
+                </div>
             </div>
         </div>
         
